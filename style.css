@@ -1,0 +1,137 @@
+/* header */
+a{
+    color: black;
+    text-decoration: none;
+}
+.main-head{
+    background: #ceecdc;
+}
+nav{
+    min-height: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 2rem;
+}
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+#logo{
+    flex: 1 1 40rem;
+    align-items: center;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+img{
+    width: 450px;
+    height: 450px;
+    object-fit: cover;
+    margin: 3px;
+}
+.main{
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #ceecdc;
+}
+.main .left{
+    margin-right: 350px;
+}
+.main .right button{
+    padding: 15px 20px;
+    background-color: rgb(255, 136, 0);
+    color: aliceblue;
+    cursor: pointer;
+} 
+.a{
+    color: rgb(255, 136, 0);
+}
+.imagetext .left{
+    margin-top: 40px;
+    margin-left: 200px;
+    margin-right: 100px;
+    display: flex;
+    flex: 1 1 40rem;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    border-width: 2px;
+    border-style: groove;
+    border-color: rgb(138, 138, 134);
+}
+.imagetext .left .first img{
+    width: 640px;
+    height: 350px;
+}
+.imagetext .left .second{
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 5px solid #6f6f6f;
+}
+.imagetext .left button{
+    padding: 8px 280px;
+    background-color: rgb(255, 136, 0);
+    color: aliceblue;
+    cursor: pointer;
+    border: #ceecdc;
+}
+.imagetext .right{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 300px;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.imagetext .right .top{
+    margin-top: 80px;
+    border-top: 5px solid #6f6f6f;
+}
+footer{
+    margin-top: 40px;
+    border-top: 5px solid #6f6f6f;
+    background-color: black;
+    padding: 30px 100px;           
+}
+d{
+    color: white;
+    text-decoration: none;
+}
+.main-foot{
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    margin-left: 200px;
+    margin-left: 200px;
+}
+.copyright{
+    align-items: center;
+    margin: 20px auto;
+    width: 38%;
+}
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
+    
